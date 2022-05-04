@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="title">
     <h1>
       La mia prima app con Vue CLI!
     </h1>
@@ -14,5 +14,11 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
-
+  .title{
+    text-align: center;
+    h1{
+      padding-top: 300px;
+      color: #435365;
+    }
+  }
 </style>
